@@ -35,7 +35,7 @@ function move(row,col){
                 elements[i].removeAttribute("one")
             }
             location.reload()
-        })
+        },2000)
     }
 
     if (currentplayer == 'X')   currentplayer = 'O'
